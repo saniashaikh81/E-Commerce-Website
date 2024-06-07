@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head><title>E-Commerce Website</title>
-    <link href="Style.css"></head>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <title>E-Commerce Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script></head>
     <body>
 
         <header>
@@ -9,7 +14,7 @@
                 <div class="left-heading">
                     <div class="logo">
                         <a href="/user/Frontend/index.html">
-                            <img src="logo.png">
+                            <img class="logo-img" src="logo.png">
                         </a>
                     </div>
                     <div class="search-bar">
@@ -21,12 +26,15 @@
                 </div>
                 <div class="right-heading">
                     <div class="login-status">
-                        <div class="login">Login</div>
-                        <div class="register">Register</div>
-                        <div class="logout">Logout</div>
-                        <div class="logged-user">Logged-User <span class="Usename">UserName</span></div>
+                        <div class="login" ><img src="enter.png" style='height:8vh;'>
+                        </div>
+                        <div class="register"><img src="userwrong.png" style='height:8vh; '></div>
+                        <div class="logout"><img src="logout.png" style='height:8vh; '></div>
+                        <div class="logged-user"><img src="user.png" style='height:8vh;'>
+                            <span class="Usename" >UserName</span>
+                        </div>
                     </div>
-                    <div class="add-cart"></div>
+                    <div class="add-cart"><img src="cart.png" style='height:8vh;'></div>
                 </div>
             </div>
             <div class="navigation"></div>
@@ -34,6 +42,7 @@
         </header>
         <main></main>
         <footer></footer>
+     
         <script src="global.js"></script>
     </body>
 </html>
